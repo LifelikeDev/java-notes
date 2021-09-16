@@ -9,6 +9,7 @@ public class FakeBinary {
     // Method One
     public static String fakeBinOne (String numberString) {
         StringBuilder newStr = new StringBuilder();
+        // can also use new String() for newStr
 
         for (int i = 0; i < numberString.length(); i++) {
             if ((int) numberString.charAt(i) < (int) '5') {
