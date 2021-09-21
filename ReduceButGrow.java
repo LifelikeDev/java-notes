@@ -8,8 +8,8 @@ public class ReduceButGrow {
 
     public static int grow(int[] arr){
         int result = 1;
-        for (int a : arr) {
-            result *= a;
+        for (int item : arr) {
+            result *= item;
         }
         return result;
     }
