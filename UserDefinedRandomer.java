@@ -18,6 +18,7 @@ public class UserDefinedRandomer {
     private static int randomer(int lower, int upper) {
 
         int randomNumber = (int) ((Math.random() * upper) + lower);
+//        int randomNumber = (int) (lower + (Math.random() * (upper - lower)) + lower);
 
         System.out.println("Generating a random number between " + lower + " and " + upper + "...");
         return randomNumber;
