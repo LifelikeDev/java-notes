@@ -1,5 +1,4 @@
 package com.lifelike.dev;
-
 import java.util.Scanner;
 
 public class UserDefinedRandomer {
